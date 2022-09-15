@@ -2,4 +2,69 @@
    OEFENEN MET FLEXBOX
 ========================================================= */
 
-/* Schrijf hier  jouw CSS! */
+/* Opdracht 1.1 */
+
+.one {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+
+
+/* Opdracht 1.2 */
+
+.two {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+
+/* Opdracht 1.3 */
+
+.three {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+.three ul {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-basis:300px;
+
+    margin: 0px;
+    list-style-type: none;
+
+}
+
+
+/* Opdracht 1.4 */
+
+form {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+/* Opdracht 1.5 */
+.five {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.five article {
+    flex-basis: 350px;
+    flex-grow:1;
+    flex-shrink:1;
+}
+
